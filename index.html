@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="disabled-adaptations" content="watch">
-  <title>Musik · Musik und Politik</title>
+  <title>Musik · Lernzettel zur Klassenarbeit</title>
   <meta name="theme-color" content="#f4f5f1">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23285c95'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Arial' font-size='44' font-weight='bold' fill='white'%3EM%3C/text%3E%3C/svg%3E">
-  <meta name="description" content="Lernzettel Musik, 11. Klasse: Musik und Politik in DDR und Nationalsozialismus, Liedanalysen, Quintenzirkel und Musterantworten. Für Handy und Apple Watch.">
+  <meta name="description" content="Musik-Lernzettel zur Klassenarbeit: Agitation und Wir-Lieder, DDR und NS, Vier-Akte-Modell, entartete Musik und Quintenzirkel. Ausschließlich nach Musik_Lernzettel_Klassenarbeit.pdf.">
   <style>
     :root {
       color-scheme: light;
@@ -497,8 +497,11 @@
       .jump-nav, .skip-link, .footer .back-top { display: none; }
       .masthead, .topic-card { border: 0; box-shadow: none; }
       .masthead { padding: 0 0 16px; }
-      .topic-head { background: white !important; padding: 12px 0; }
+      .topic-head { background: white !important; padding: 12px 0; break-inside: avoid; break-after: avoid; }
+      .topics, .blocks { display: block; }
       .blocks { padding: 8px 0; }
+      .block { margin-bottom: 12px; }
+      .block.table { break-inside: auto; }
       .block, tr { break-inside: avoid; }
       .block { background: white !important; }
 
@@ -513,10 +516,10 @@
   <a class="skip-link" href="#topics">Zum Lernstoff</a>
   <main class="shell" id="anfang">
     <header class="masthead">
-      <p class="label">Musik · 11. Klasse</p>
-      <h1>Musik und Politik</h1>
+      <p class="label">Musik · Klassenarbeit</p>
+      <h1>Lernzettel Musik</h1>
       <p class="subtitle">DDR und Nationalsozialismus</p>
-      <p class="exam">Begriffe · Liedbeispiele · Analyse · Musterantworten</p>
+      <p class="exam">Agitation · Wir-Lieder · Vier Akte · Quintenzirkel</p>
     </header>
 
     <nav class="jump-nav" aria-label="Themenauswahl">
@@ -528,10 +531,8 @@
     <noscript><p>Bitte JavaScript aktivieren, um den Lernzettel zu lesen.</p></noscript>
     <footer class="footer">
       <details>
-        <summary>Quellen & Hinweise</summary>
-        <p>Grundlage ist deine bereitgestellte Zusammenfassung. Die darin erwähnten 14 Unterrichtsseiten und das Themenbild lagen für diesen Lernzettel nicht vor.</p>
-        <p>Ergänzende Quellen zur fachlichen Einordnung stehen unten. Liedanalysen sind Lernhinweise: Taktart, Melodieverlauf und Wirkung in der Arbeit am konkreten Noten- oder Hörbeispiel belegen.</p>
-        <div class="source-links" id="sources"></div>
+        <summary>Quelle</summary>
+        <p>Ausschließlich nach <cite>Musik_Lernzettel_Klassenarbeit.pdf</cite>, Seiten 1–3. Die acht Abschnitte der PDF sind hier in vier Themenbereiche gegliedert.</p>
       </details>
       <a class="back-top" href="#anfang">↑ Zurück zum Anfang</a>
     </footer>
@@ -605,10 +606,6 @@
     }
 
     render();
-
-    document.getElementById("sources").innerHTML = (window.SOURCES || []).map(source =>
-      `<a href="${escapeHtml(source.url)}">${escapeHtml(source.title)}</a>`
-    ).join("");
 
     const sourceDetails = document.querySelector(".footer details");
     let sourcesWereOpen = false;

@@ -1,202 +1,154 @@
+// Ausschließliche Inhaltsquelle: Musik_Lernzettel_Klassenarbeit.pdf, Seiten 1–3.
 window.TOPICS = [
   {
     id: "grundlagen", title: "Grundlagen", badge: "01", accent: "blue",
     blocks: [
-      { id: "definitionen", type: "term", title: "Agitation & Wir-Lieder", items: [
-        "Agitatorische Musik: soll Menschen politisch beeinflussen, emotional mitreißen und zu Überzeugungen oder Handlungen bewegen. Sie kann als Propaganda dienen.",
-        "Wir-Lieder: gemeinsames Singen und die Betonung von „wir“ erzeugen Zusammenhalt, Identifikation und Zugehörigkeit.",
-        "Unterschied: Nicht jedes Wir-Lied ist Propaganda. Entscheidend sind Inhalt, Ziel und Verwendung."
+      { id: "agitation-wir", type: "term", title: "Agitatorische Musik und Wir-Lieder", items: [
+        "Agitation: gezielte politische Beeinflussung und Mobilisierung durch Musik.",
+        "Wir-Lied: spricht eine Gemeinschaft als „wir/uns“ an und stärkt Identifikation, Zusammenhalt und Bereitschaft zum Mitmachen.",
+        "Abgrenzung: Ein Wir-Lied kann auch „die anderen“ als Gegner abgrenzen."
       ]},
-      { id: "textmerkmale", type: "timeline", title: "Inhaltliche Merkmale", items: [
-        "Wir-Form: die eigene Gruppe als Einheit darstellen.",
-        "Wiederholungen und Parolen: kurze Botschaften einprägen.",
-        "Freund–Feind-Gegensatz: Feindbilder schaffen, die Realität vereinfachen.",
-        "Verherrlichung: Partei, Führung oder Ideologie aufwerten.",
-        "Handlungsappell: zu Kampf, Zusammenhalt oder Gehorsam auffordern.",
-        "Zukunftsversprechen: Sieg, Erlösung oder eine bessere Welt in Aussicht stellen."
+      { id: "inhalt", type: "timeline", title: "Inhaltliche Merkmale", items: [
+        "Wir-Form; gemeinsame Ziele und Werte.",
+        "Parolen und Wiederholungen; Partei oder Bewegung als Vorbild.",
+        "Gegner und Feindbilder; Kampf, Solidarität oder Zukunftsversprechen."
       ]},
-      { id: "musikmerkmale", type: "timeline", title: "Musikalische Mittel & Wirkung", items: [
-        "Einfache, einprägsame Melodie → leicht gemeinsam singbar.",
-        "Klarer, regelmäßiger Rhythmus; oft marschartig → gemeinsamer Puls, Entschlossenheit.",
-        "Wiederholte Motive und Refrains → Botschaft bleibt im Gedächtnis.",
-        "Kraftvoller gemeinsamer Gesang → Begeisterung und Stärkegefühl.",
-        "Politisches Ziel: mobilisieren, Gruppentreue stärken, Denken und Handeln beeinflussen."
-      ], note: "Das sind typische Mittel, keine Pflichtmerkmale jedes Liedes. Wirkung immer aus Text, Musik und Situation begründen." },
-      { id: "vier-akte", type: "steps", title: "Das Vier-Akte-Modell", intro: "Nach Vladimír Karbusický: ein Analysemodell für Agitations- und Kampflieder, unter anderem im Nationalsozialismus.", items: [
-        "Kampfsituation: Die Wirklichkeit wird auf einen Kampf zwischen Freund und Feind reduziert.",
-        "Not & Gruppierungsappell: Eine Bedrohung oder Schwäche wird dargestellt; die eigene Gruppe soll zusammenhalten.",
-        "Feind dramatisieren: Der Gegner erscheint gefährlich und grausam, letztlich aber überwindbar.",
-        "Zukunft & Erlösung: Handlungsrichtlinien, gemeinsamer Sieg und eine bessere Zukunft werden versprochen."
-      ], note: "Merksatz: Kampf – Not und Gemeinschaft – Feind – Sieg und Zukunft. Die Akte müssen nicht genau vier Strophen entsprechen." },
-      { id: "lernreihenfolge", type: "remember", title: "Was zuerst lernen?", items: [
-        "Zuerst: Agitation, Wir-Lieder, Vier-Akte-Modell, NS-Propaganda, „entartete Musik“ und Analysebegriffe.",
-        "Dann: die fünf Musterantworten frei formulieren können.",
-        "Anschließend: DDR-Lieder, Hymne, historische Eckdaten und Quintenzirkel wiederholen."
+      { id: "musik", type: "timeline", title: "Musikalische Merkmale", items: [
+        "Leicht singbare, oft schrittweise Melodie; überschaubarer Tonumfang.",
+        "Deutlicher regelmäßiger Puls, oft 4/4 und marschartig.",
+        "Prägnante Wiederholungen und Refrains; gemeinsamer, kräftiger Gesang."
+      ]},
+      { id: "wirkung", type: "term", title: "Wirkung", items: [
+        "Die Botschaft bleibt im Gedächtnis.",
+        "Mitsingen schafft Gemeinschaft.",
+        "Musik soll emotional überzeugen und zum Handeln oder zur Loyalität motivieren."
+      ]},
+      { id: "analyseschema", type: "steps", title: "Analyseschema für jedes Lied", items: [
+        "Aussage und Ziel nennen.",
+        "Textbeleg: Wir, Feind, Zukunft oder Partei.",
+        "Hörbares oder notiertes Musikmerkmal: Melodie, Rhythmus oder Form.",
+        "Dessen politische Wirkung erklären."
+      ], note: "Wichtig: Musikalische Merkmale nur behaupten, wenn sie im Lied tatsächlich erkennbar sind." },
+      { id: "fuenf-saetze", type: "remember", title: "Fünf Sätze, die du sicher können musst", items: [
+        "Agitatorisch: Politische Botschaft + gezielte emotionale Beeinflussung.",
+        "Wir-Lied: Wir-Form + leicht gemeinsam singbare Musik + Gemeinschaftswirkung.",
+        "NS: Kampf, Gehorsam, Opferbereitschaft, Gefolgschaft.",
+        "DDR: Sozialismus, Solidarität, kollektive Identität, SED.",
+        "Vier Akte: Kampf – Not/Appell – Feind – Zukunft/Sieg."
       ]}
     ]
   },
   {
-    id: "ns", title: "Nationalsozialismus", badge: "02", accent: "orange",
+    id: "ddr", title: "DDR", badge: "02", accent: "green",
     blocks: [
-      { id: "ns-propaganda", type: "timeline", title: "Musik als Propaganda", items: [
-        "Einsatz: bei Feiern, Schulungen, Aufmärschen und in Jugendorganisationen.",
-        "Ziele: Gehorsam, Gefolgschaftstreue, Opferbereitschaft und Kampfgeist vermitteln; emotional an das Regime binden.",
-        "Jugenderziehung: besonders Jungen auf Wehrhaftigkeit und Soldatentum vorbereiten.",
-        "Methode: Begeisterung für Abenteuer, Fahrten und gemeinsames Singen ausnutzen; auch Lieder der Jugendbewegung übernehmen und politisch vereinnahmen.",
-        "Zusammenspiel: Text vermittelt die Botschaft; Rhythmus, Melodie und gemeinsames Singen verstärken sie."
+      { id: "lied-partei", type: "answer", title: "Musteraufgabe: „Lied der Partei“", question: "Begründe anhand inhaltlicher und musikalischer Elemente, warum es ein agitatorisches Wir-Lied ist.", items: [
+        "Das „Lied der Partei“ ist agitatorisch, weil es die SED als unfehlbare Führung darstellt („Die Partei, die Partei, die hat immer recht“) und die Menschen zu Vertrauen und Treue gegenüber der Partei bewegen will. Die Wir-Perspektive stellt den Einzelnen als Teil einer geschlossenen Gemeinschaft dar. Die leicht einprägsame, gemeinschaftlich singbare Melodie, der klare regelmäßige Rhythmus und die wiederholte Parole verstärken die Aussage. Inhalt und Musik sollen Zusammengehörigkeit und Zustimmung zur Partei erzeugen."
       ]},
-      { id: "morsche-knochen", type: "term", title: "„Es zittern die morschen Knochen“", items: [
-        "Text und Musik: Hans Baumann, 1932; als nationalsozialistisches Kampflied verwendet.",
-        "Inhalt: Stärke der eigenen Gruppe, Kampf- und Opferbereitschaft sowie Siegesgewissheit.",
-        "Musik: marschartiger Charakter, Tonwiederholungen, punktierte Rhythmen und wiederkehrende Motive.",
-        "Beabsichtigte Wirkung: Kampfgeist, Selbstbewusstsein und Gruppenzusammenhalt stärken."
-      ], note: "Taktart, Tonart und genaue Tonfolgen am vorliegenden Notenblatt bestimmen. Musikalische Beobachtungen mit Taktstellen belegen." },
-      { id: "modell-anwendung", type: "steps", title: "Vier Akte am Lied anwenden", items: [
-        "Kampf: Die bestehende Ordnung wird zum Gegner der eigenen Bewegung erklärt.",
-        "Gruppe: Gemeinsames Voranschreiten und Zusammenhalten werden gefordert.",
-        "Feind: Die Gegner werden abgewertet und als letztlich besiegbar dargestellt.",
-        "Zukunft: Die eigene Bewegung verspricht Sieg und eine von ihr bestimmte Zukunft."
-      ], note: "Zuordnung als Deutung begründen: In der Arbeit passende Textstellen aus der vorgelegten Fassung nennen." },
-      { id: "entartete-musik", type: "term", title: "„Entartete Musik“", items: [
-        "Definition: abwertender NS-Kampfbegriff für Musik, die aus rassistischen, politischen oder ästhetischen Gründen unerwünscht war. Kein neutraler Fachbegriff.",
-        "Betroffen: Werke jüdischer Komponisten, atonale und experimentelle Musik, politisch unerwünschte Musik sowie Jazz und Swing.",
-        "Folgen: Aufführungs- und Berufsverbote, Ausgrenzung, Verfolgung und erzwungene Emigration.",
-        "Einordnung: Die NS-Musikpolitik war widersprüchlich; etwa Jazz und Swing wurden nicht überall und jederzeit gleich behandelt."
-      ]},
-      { id: "mendelssohn", type: "term", title: "Felix Mendelssohn Bartholdy", items: [
-        "Epoche: Romantik.",
-        "Musik: tonal, klare Melodien, traditionelle Formen und harmonische Zusammenhänge.",
-        "NS-Ausgrenzung: Seine Werke wurden wegen seiner jüdischen Herkunft verfemt – trotz ihres traditionellen Stils.",
-        "Wichtig: Mendelssohn starb 1847. Im NS ging es um die Unterdrückung seines Werkes und Andenkens."
-      ]},
-      { id: "webern", type: "term", title: "Anton Webern", items: [
-        "Epoche: Moderne; Zweite Wiener Schule.",
-        "Musik: in vielen Werken Atonalität und später Zwölftontechnik; knappe Motive, große Tonsprünge und differenzierte Klangfarben.",
-        "NS-Ausgrenzung: Seine moderne Musik wurde als „entartet“ abgelehnt.",
-        "Vergleich: Mendelssohn zeigt rassistische Verfemung; Webern zeigt die Ablehnung musikalischer Moderne."
-      ]}
-    ]
-  },
-  {
-    id: "ddr", title: "DDR", badge: "03", accent: "green",
-    blocks: [
-      { id: "ddr-geschichte", type: "timeline", title: "Historischer Hintergrund", items: [
-        "1949: Gründung der DDR auf dem Gebiet der sowjetischen Besatzungszone.",
-        "SED: Sozialistische Einheitspartei Deutschlands; beherrschte Staat und Gesellschaft. Wichtige Führungsfiguren: Walter Ulbricht und Erich Honecker.",
-        "1953: Volksaufstand am 17. Juni, maßgeblich durch sowjetische Truppen niedergeschlagen.",
-        "1961: Bau der Berliner Mauer zur Verhinderung der Flucht in den Westen.",
-        "1989: Friedliche Revolution, Fall der Mauer und Ende der SED-Herrschaft.",
-        "Ideologie: Marxismus-Leninismus. Staatlich geförderte Musik sollte sozialistische Werte und Loyalität vermitteln."
-      ]},
-      { id: "ddr-jugend", type: "timeline", title: "Jugend & Musikerziehung", items: [
-        "Pionierorganisation „Ernst Thälmann“: politisch geprägte Massenorganisation für Kinder; Mitgliedschaft formal freiwillig, aber gesellschaftlich erwartet.",
-        "Ziele: Gemeinschaft und Solidarität fördern, sozialistische Werte vermitteln und zur Unterstützung des Staates erziehen.",
-        "Praxis: gemeinsames Singen in Chören, in der Schule und bei Veranstaltungen.",
-        "Abgrenzung: Diese Ziele betreffen die staatliche Musikerziehung. Nicht jede Musik in der DDR unterstützte die SED."
-      ]},
-      { id: "lied-partei", type: "term", title: "„Lied der Partei“", items: [
-        "Inhalt: Die Partei wird als unfehlbare Führung verherrlicht; der Einzelne soll vertrauen und sich unterordnen.",
-        "Wir-Form: gemeinsame Identität und Zugehörigkeit zur Gruppe.",
-        "Musik: einprägsame Melodie, klarer Rhythmus, Wiederholungen und kraftvoller gemeinsamer Gesang.",
-        "Funktion in der DDR: Parteitreue und Identifikation mit der SED stärken."
+      { id: "ddr-hintergrund", type: "timeline", title: "Hintergrund und Erziehung", items: [
+        "1949: Gründung der DDR.",
+        "SED: herrschende Partei; Orientierung am Marxismus-Leninismus.",
+        "1953: Volksaufstand. 1961: Mauerbau. 1990: Ende der DDR.",
+        "Pionierorganisation „Ernst Thälmann“ und gemeinsames Singen: dienten auch der sozialistischen Erziehung.",
+        "Ziele: Kollektiv, Solidarität, Parteibindung und Fortschrittsglaube."
       ]},
       { id: "naturforscher", type: "term", title: "„Lied der jungen Naturforscher“", items: [
-        "Inhalt: Kinder erforschen gemeinsam die Natur und überwinden Schwierigkeiten.",
-        "Werte: Neugier, Fleiß, Naturverbundenheit, Fortschritt und Zusammenarbeit.",
-        "Wirkung: Kinder erleben sich als aktive, wissbegierige Gemeinschaft.",
-        "Politischer Bezug: Einordnung in die Pioniererziehung; die Gemeinschaftsbotschaft ist weniger unmittelbar parteibezogen als im „Lied der Partei“."
+        "Kinder erforschen gemeinsam die Natur.",
+        "Wir-Form, Neugier, Fleiß, Entdeckerfreude, Fortschritt und Gemeinschaft.",
+        "Positive Zukunft und kollektives Handeln werden betont."
       ]},
       { id: "thaelmann", type: "term", title: "„Die Thälmann-Kolonne“", items: [
-        "Hintergrund: Spanischer Bürgerkrieg; Kampf der internationalen Freiwilligen gegen den Faschismus.",
-        "Inhalt: Freiheit, Mut, Widerstand und Solidarität.",
-        "Werte: Antifaschismus, Zusammenhalt, Kampf- und Opferbereitschaft.",
-        "Einordnung: Das Lied entstand vor der DDR und wurde später in ihre antifaschistische Erinnerungskultur übernommen."
+        "Kampflied zum Spanischen Bürgerkrieg.",
+        "Antifaschistischer Widerstand, Freiheit, Mut und Kampfbereitschaft.",
+        "Refrain: „Wir kämpfen und siegen für dich, Freiheit!“ verstärkt Zusammenhalt und Entschlossenheit."
       ]},
       { id: "solidaritaet", type: "term", title: "„Solidaritätslied“", items: [
-        "Text: Bertolt Brecht. Musik: Hanns Eisler.",
-        "Inhalt: Gemeinsam gegen Unterdrückung und Ungerechtigkeit kämpfen, über Herkunftsgrenzen hinweg.",
-        "Werte: internationale Arbeitersolidarität, Gleichheit, gegenseitige Hilfe und Zusammenhalt.",
-        "Musik: prägnanter Rhythmus, Wiederholungen und gemeinschaftlich singbarer Refrain.",
-        "Einordnung: Arbeiterlied aus der Zeit vor der DDR; später dort ebenfalls gesungen."
+        "Bertolt Brecht / Hanns Eisler.",
+        "Internationale Solidarität; Überwindung von Grenzen und Trennungen.",
+        "Wiederkehrender Refrain als gemeinschaftlicher Appell.",
+        "Frage nach gemeinsamer Stärke und sozialem Handeln."
       ]},
-      { id: "hymne", type: "term", title: "„Auferstanden aus Ruinen“", items: [
-        "DDR-Nationalhymne: 1949. Text: Johannes R. Becher. Musik: Hanns Eisler.",
-        "Themen: Wiederaufbau nach dem Zweiten Weltkrieg, Frieden, deutsche Einheit und eine bessere Zukunft.",
-        "Text: positive Zukunftsbilder, Hoffnung und Aufforderung zur gemeinsamen Arbeit.",
-        "Musik: 4/4-Takt, klare Gliederung und gut singbare Melodie; feierlicher Charakter. Schritte und Sprünge am Notenbeispiel zeigen.",
-        "Wirkung: Zuversicht, Zusammengehörigkeit und Identifikation mit dem Staat.",
-        "Hymne: feierliches Lob- oder Festlied, das Gemeinschaft und Verehrung ausdrückt."
+      { id: "hymne", type: "term", title: "DDR-Nationalhymne", items: [
+        "„Auferstanden aus Ruinen“ (1949): Text Johannes R. Becher, Musik Hanns Eisler.",
+        "Wiederaufbau, Frieden, Einheit und Hoffnung.",
+        "Feierlich und gut singbar; stützt Identifikation und Zuversicht.",
+        "Hymne: feierliches Lob- oder Gemeinschaftslied."
       ]}
     ]
   },
   {
-    id: "musiklehre", title: "Musiklehre", badge: "04", accent: "blue",
+    id: "ns", title: "Nationalsozialismus", badge: "03", accent: "orange",
     blocks: [
-      { id: "analysebegriffe", type: "term", title: "Fachbegriffe zur Analyse", items: [
-        "Melodik: Verlauf der Tonhöhen; z. B. schrittweise, sprunghaft, auf- oder absteigend.",
-        "Rhythmik: zeitliche Anordnung von Tondauern, Pausen und Betonungen.",
-        "Metrum: regelmäßige Folge von betonten und unbetonten Zählzeiten. Takt: deren Zusammenfassung, z. B. 4/4.",
-        "Tonalität: Bezug auf ein tonales Zentrum, z. B. in Dur oder Moll. Atonalität: kein solches verbindliches Zentrum.",
-        "Dynamik: Lautstärke und ihre Veränderung; z. B. forte, piano, crescendo.",
-        "Tempo: Geschwindigkeit; z. B. langsam, mäßig oder schnell. „Feierlich“ beschreibt den Charakter.",
-        "Wiederholung: erneutes Auftreten eines Motivs, einer Melodie oder eines Abschnitts."
+      { id: "ns-propaganda", type: "timeline", title: "Musik als Propaganda", items: [
+        "Gemeinsames Singen: zentral bei Feiern, Schulungen und in Jugendorganisationen.",
+        "Ziele: Gehorsam, Gefolgschaftstreue, Opferbereitschaft, Wehrhaftigkeit und Gemeinschaftsgefühl fördern.",
+        "Die Nationalsozialisten übernahmen auch ältere Fahrten- und Jugendlieder und deuteten sie ideologisch um.",
+        "Kraftvolle, einfache, gut mitsingbare Musik machte Botschaften besonders wirksam."
       ]},
-      { id: "tonbewegung", type: "term", title: "Tonbewegung & Punktierung", items: [
-        "Ambitus: Umfang zwischen tiefstem und höchstem Ton einer Melodie.",
-        "Tonschritt: Bewegung zum benachbarten Ton der verwendeten Tonleiter.",
-        "Tonsprung: Bewegung über einen oder mehrere Tonleitertöne hinweg.",
-        "Punktierung: Ein Punkt hinter einer Note verlängert ihren Wert um die Hälfte. Punktierte Viertel = Viertel + Achtel.",
-        "Punktierter Rhythmus: häufig eine punktierte längere Note mit einer anschließenden kürzeren Note."
+      { id: "morsche-knochen", type: "term", title: "„Es zittern die morschen Knochen“", items: [
+        "Hans Baumann (1932): bekanntes NS-Jugendlied.",
+        "Kämpferisches Wir: vertraut trotz Bedrohungen auf Sieg und Zukunft.",
+        "Regelmäßige, markante Rhythmen und einprägsame Motive unterstützen die kämpferische Wirkung."
       ]},
-      { id: "analyse-ablauf", type: "steps", title: "So begründest du die Wirkung", items: [
-        "Benennen: ein konkretes musikalisches Merkmal nennen, z. B. Tonwiederholung oder regelmäßige Betonung.",
-        "Belegen: passende Takte oder eine Hörstelle angeben.",
-        "Deuten: erklären, wie das Merkmal mit Text und politischem Zweck zusammenwirkt."
-      ], note: "Beispiel: „Die wiederkehrenden rhythmischen Motive erleichtern das gemeinsame Singen. Zusammen mit den Handlungsappellen können sie den Eindruck von Geschlossenheit verstärken.“" },
-      { id: "quintenzirkel", type: "term", title: "Quintenzirkel verstehen", items: [
-        "Prinzip: Tonarten stehen im Abstand einer Quinte; Nachbartonarten unterscheiden sich um ein Vorzeichen.",
-        "Kreuzrichtung: C – G – D – A – E – H – Fis – Cis.",
-        "B-Richtung: C – F – B – Es – As – Des – Ges – Ces.",
-        "Kreuz-Reihenfolge: Fis – Cis – Gis – Dis – Ais – Eis – His.",
-        "B-Reihenfolge: B – Es – As – Des – Ges – Ces – Fes.",
-        "Paralleles Moll: drei Halbtonschritte unter der Durtonart; dieselben Vorzeichen. Beispiel: C-Dur → a-Moll.",
-        "Deutsche Tonnamen: H und B unterscheiden! B liegt einen Halbton unter H."
+      { id: "vier-akte", type: "steps", title: "Vier-Akte-Modell nach Karbusicky", intro: "Modell zur propagandistischen Dramaturgie von Kampfliedern – kein allgemeines Modell zum Aufbau jeder Musik.", items: [
+        "Kampfsituation: Die komplexe Wirklichkeit wird auf den Gegensatz „wir gegen sie“ reduziert.",
+        "Not + Appell: Not, Schwäche oder Bedrohung werden gezeigt; die eigene Gruppe soll sich zusammenschließen.",
+        "Feind: Der Gegner wird dramatisiert und abgewertet; seine spätere Ohnmacht oder Niederlage wird behauptet.",
+        "Zukunft: Handlungsrichtlinien, Kampfbereitschaft und ein Erlösungs- bzw. Siegesversprechen schließen ab."
       ]},
-      { id: "tonarten", type: "table", title: "Tonarten & paralleles Moll", headers: ["Dur", "Zeichen", "Moll"], rows: [
-        ["C", "0", "a"], ["G", "1 ♯", "e"], ["D", "2 ♯", "h"], ["A", "3 ♯", "fis"], ["E", "4 ♯", "cis"],
-        ["H", "5 ♯", "gis"], ["Fis", "6 ♯", "dis"], ["Cis", "7 ♯", "ais"],
-        ["F", "1 ♭", "d"], ["B", "2 ♭", "g"], ["Es", "3 ♭", "c"], ["As", "4 ♭", "f"],
-        ["Des", "5 ♭", "b"], ["Ges", "6 ♭", "es"], ["Ces", "7 ♭", "as"]
-      ], items: [], note: "♯ = Kreuz, ♭ = B-Vorzeichen. Großbuchstabe = Dur, Kleinbuchstabe = Moll. Die ersten vier Vorzeichen je Richtung gehören zu deiner Grundübersicht." }
+      { id: "modell-anwendung", type: "steps", title: "Am NS-Jugendlied anwenden", intro: "„Es zittern die morschen Knochen“:", items: [
+        "Kampfsituation und Bedrohung.",
+        "Das eigene „Wir“ hält zusammen.",
+        "Gegner und Hindernisse werden als überwindbar dargestellt.",
+        "Am Ende steht die Aussicht auf Sieg und eine neue Welt."
+      ], note: "Merken: Kampf – Zusammenschluss – Feind – Sieg." },
+      { id: "entartete-musik", type: "term", title: "„Entartete Musik“ und verfemte Werke", items: [
+        "„Entartete Musik“: nationalsozialistischer Kampf- und Ausgrenzungsbegriff, keine objektive musikalische Kategorie.",
+        "Unerwünscht: unter anderem Werke jüdischer Komponisten, Jazz und andere als „fremd“ diffamierte Stile sowie avantgardistische oder atonale Musik.",
+        "Ziel: kulturelle Gleichschaltung.",
+        "Folgen: Diffamierung, Aufführungs- und Berufsverbote, Verfolgung und Exil.",
+        "Ausstellung „Entartete Musik“: Düsseldorf 1938; diente der Propaganda."
+      ]},
+      { id: "mendelssohn", type: "term", title: "Felix Mendelssohn Bartholdy", items: [
+        "Romantischer, weitgehend tonaler Komponist.",
+        "Trotz seiner musikalischen Tradition wegen jüdischer Familienherkunft von NS-Propaganda und Repertoirepolitik ausgegrenzt."
+      ]},
+      { id: "webern", type: "term", title: "Anton Webern", items: [
+        "Vertreter der musikalischen Moderne und Zwölftontechnik.",
+        "Konzentrierte, teils atonale Musik; ungewöhnliche Klanggestaltung.",
+        "Seine Werke wurden im NS-Staat zurückgedrängt."
+      ]},
+      { id: "vergleich-verfemt", type: "remember", title: "Vergleich merken", items: [
+        "Mendelssohn: vor allem rassistisch abgelehnt.",
+        "Webern: vor allem wegen seiner modernen musikalischen Sprache abgelehnt.",
+        "„Verfemt“: öffentlich geächtet und verdrängt."
+      ]}
     ]
   },
   {
-    id: "musterantworten", title: "Musterantworten", badge: "05", accent: "green",
+    id: "quintenzirkel", title: "Quintenzirkel", badge: "04", accent: "blue",
     blocks: [
-      { id: "antwort-wir-lied", type: "answer", title: "1 · Warum ein agitatorisches Wir-Lied?", question: "Begründe dies am „Lied der Partei“.", items: [
-        "Das „Lied der Partei“ ist ein agitatorisches Wir-Lied, weil es die SED verherrlicht und politische Loyalität erzeugen soll. Die Partei wird als unfehlbar dargestellt; die Wir-Form schafft Zugehörigkeit. Eine einprägsame Melodie, ein klarer Rhythmus und Wiederholungen unterstützen das gemeinsame Singen. Dadurch sollen Zusammenhalt, Begeisterung und Parteitreue gestärkt werden."
+      { id: "quintenzirkel-funktion", type: "term", title: "Funktion und paralleles Moll", items: [
+        "Der Quintenzirkel ordnet Dur-Tonarten im Abstand einer Quinte.",
+        "Im Uhrzeigersinn kommt je ein Kreuz hinzu, gegen den Uhrzeigersinn je ein b.",
+        "Die parallele Molltonart liegt drei Halbtonschritte unter der Durtonart und hat dieselben Vorzeichen."
       ]},
-      { id: "antwort-ns", type: "answer", title: "2 · Wie nutzte der NS Musik?", question: "Erkläre den Einsatz als Propaganda.", items: [
-        "Das NS-Regime setzte Musik ein, um Menschen emotional zu beeinflussen und Gehorsam, Opferbereitschaft und Kampfgeist zu vermitteln. Gemeinsames Singen stärkte die Bindung an die inszenierte Gemeinschaft und an das Regime. Einfache Melodien, marschartige Rhythmen und Wiederholungen erleichterten das Einprägen und Verbreiten der politischen Botschaften. Besonders die Jugenderziehung nutzte diese Wirkung."
+      { id: "kreuz-tonarten", type: "term", title: "Kreuz-Tonarten", items: [
+        "C (0) → G (1) → D (2) → A (3) → E (4) → H (5) → Fis (6) → Cis (7).",
+        "Reihenfolge der Kreuze: Fis, Cis, Gis, Dis, Ais, Eis, His."
       ]},
-      { id: "antwort-vier-akte", type: "answer", title: "3 · Wie funktionieren die vier Akte?", question: "Erkläre das Modell an „Es zittern die morschen Knochen“.", items: [
-        "Das Lied stellt die bestehende Ordnung als Gegner der eigenen Bewegung dar und reduziert die Wirklichkeit auf eine Kampfsituation. Es fordert die eigene Gruppe zu geschlossenem Vorgehen auf. Die Gegner werden abgewertet und als letztlich überwindbar dargestellt. Schließlich wird eine siegreiche Zukunft der eigenen Bewegung versprochen. Damit lassen sich Kampfsituation, Gruppierungsappell, Feindbild und Zukunftsversprechen als Elemente des Vier-Akte-Modells erkennen."
-      ], note: "In der Klassenarbeit zu jedem zugeordneten Akt eine passende Textstelle aus dem vorliegenden Lied ergänzen." },
-      { id: "antwort-vergleich", type: "answer", title: "4 · DDR und NS vergleichen", question: "Vergleiche die politische Funktion von Musik.", items: [
-        "Beide Diktaturen nutzten Musik zur Vermittlung ihrer Ideologie und zur emotionalen Bindung an die politische Führung. Gemeinsames Singen sollte Zugehörigkeit und Loyalität fördern. Im NS war dies mit rassistischer Ausgrenzung, Führerkult, Gehorsam und Kriegsvorbereitung verbunden. Die staatliche Musikerziehung der DDR betonte Sozialismus, Antifaschismus, Solidarität und Treue zur SED. Ähnliche Propagandamittel bedeuten daher keine identischen Ideologien."
+      { id: "b-tonarten", type: "term", title: "b-Tonarten", items: [
+        "C (0) → F (1) → B (2) → Es (3) → As (4) → Des (5) → Ges (6) → Ces (7).",
+        "Reihenfolge der b: B, Es, As, Des, Ges, Ces, Fes."
       ]},
-      { id: "antwort-entartet", type: "answer", title: "5 · Was heißt „entartete Musik“?", question: "Erkläre den Begriff und nenne Beispiele.", items: [
-        "„Entartete Musik“ war ein abwertender NS-Kampfbegriff für Musik, die aus rassistischen, politischen oder ästhetischen Gründen abgelehnt wurde. Dazu zählten etwa Werke jüdischer Komponisten, atonale Musik sowie Jazz und Swing. Die Ausgrenzung führte zu Verboten und zur Verfolgung vieler Musiker. Mendelssohns Werke wurden wegen seiner jüdischen Herkunft verfemt; Weberns moderne Musik wurde ästhetisch und ideologisch abgelehnt."
-      ]}
+      { id: "tonarten", type: "table", title: "Parallele Molltonarten", headers: ["Dur", "Moll"], rows: [
+        ["C", "a"], ["G", "e"], ["D", "h"], ["A", "fis"], ["E", "cis"], ["H", "gis"], ["Fis", "dis"],
+        ["F", "d"], ["B", "g"], ["Es", "c"], ["As", "f"], ["Des", "b"], ["Ges", "es"]
+      ], items: [], note: "Beispiel: D-Dur = 2 Kreuze (Fis, Cis), paralleles h-Moll." },
+      { id: "tonart-bestimmen", type: "steps", title: "So bestimmst du die Tonart", items: [
+        "Vorzeichen zählen.",
+        "Im Quintenzirkel die Durtonart finden.",
+        "Falls Moll gefragt ist, die parallele Molltonart nennen."
+      ], note: "Achtung: Im Deutschen ist H der Ton B natural und B der Ton B flat." }
     ]
   }
-];
-
-window.SOURCES = [
-  { title: "Gedenkstätte Hailfingen-Tailfingen · Musik im Nationalsozialismus (PDF)", url: "https://www.kz-gedenkstaette-hailfingen-tailfingen.de/pdf/kzht.ak.te_entartete-musik_b.pdf" },
-  { title: "Deutsches Historisches Museum · Kunst und Kultur im NS", url: "https://www.dhm.de/lemo/kapitel/ns-regime/kunst" },
-  { title: "Münchner Philharmoniker · Anton Webern", url: "https://www.mphil.de/ueber-uns/musikerinnen-und-musiker/details/anton-webern" },
-  { title: "bpb · Geschichte der DDR (PDF)", url: "https://www.bpb.de/system/files/dokument_pdf/DDR_barrierefrei_optimiert_NEU.pdf" },
-  { title: "bpb · Rockmusik in der DDR", url: "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538969/rockmusik-in-der-ddr-politische-koordinaten-und-alltaegliche-dimensionen/" },
-  { title: "Karbusický · Überblick zur Vier-Akte-Dramaturgie", url: "https://de.wikipedia.org/wiki/Vladim%C3%ADr_Karbusick%C3%BD#Vier-Akte-Dramaturgie" }
 ];
