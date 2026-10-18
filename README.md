@@ -8,20 +8,21 @@
 
 ## Gliederung
 
-Die acht PDF-Abschnitte sind in vier Dropdown-Bereiche zusammengefasst:
+Die Navigation folgt fünf Aufgabenbereichen; die Zwischenüberschriften benennen die jeweilige Frage:
 
-| Bereich | Abschnitte der PDF |
+| Bereich | Gesuchte Antwort |
 | --- | --- |
-| Grundlagen | 1: Agitatorische Musik und Wir-Lieder; Analyseschema aus 2; 8: Fünf Sätze |
-| DDR | 2: Musteraufgabe „Lied der Partei“; 3: Hintergrund und Unterrichtslieder |
-| Nationalsozialismus | 4: Musik als Propaganda; 5: Vier-Akte-Modell; 6: „Entartete Musik“ und verfemte Werke |
-| Quintenzirkel | Dur-Kreisgrafik anstelle des Textabschnitts 7 |
+| Lied analysieren | Definitionen, Text- und Musikmerkmale, Wirkung, Aufbau und Musterantwort zum „Lied der Partei“ |
+| Lieder: DDR & NS | Politischer Zweck der Musik sowie Inhalt und Werte der einzelnen Unterrichtslieder |
+| Vier-Akte-Modell | Vier Akte nennen und am NS-Jugendlied anwenden |
+| „Entartete Musik“ | Begriff erklären, Mendelssohn und Webern einordnen und vergleichen |
+| Quintenzirkel (Dur) | Vorzeichen und Dur-Tonarten in der bereitgestellten Grafik finden |
 
 Die Musterantwort ist vollständig übernommen. Der Quintenzirkel zeigt ausschließlich Dur-Tonarten und ihre Vorzeichen; Molltonarten, Tabellen und Erklärungstexte sind entfernt. Texte sind für kleine Bildschirme in kürzere Absätze und Stichpunkte gegliedert.
 
 ## Technik und Bedienung
 
-Statische Seite ohne externe Laufzeitabhängigkeiten. `content.js` enthält ausschließlich den Lernstoff; `index.html` enthält Darstellung und Navigation. Vier Hauptbereiche im Dropdown; Unterthemen sind per URL verlinkbar, z. B. `#vier-akte`, `#hymne` und `#dur-quintenzirkel`. Für Handy, schmale Watch-Ansichten ab 160 px und Browserdruck.
+Statische Seite ohne externe Laufzeitabhängigkeiten. `content.js` enthält ausschließlich den Lernstoff; `index.html` enthält Darstellung und Navigation. Fünf Aufgabenbereiche im Dropdown; Unterthemen sind per URL verlinkbar, z. B. `#vier-akte`, `#hymne` und `#dur-quintenzirkel`. Für Handy, schmale Watch-Ansichten ab 160 px und Browserdruck.
 
 ```sh
 python3 -m http.server 8876 --bind 127.0.0.1
