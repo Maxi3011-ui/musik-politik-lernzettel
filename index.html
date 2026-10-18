@@ -301,6 +301,10 @@
     .block-intro, .question { margin: 0 0 12px; }
     .question { color: var(--muted); }
     .answer-text { margin: 0; line-height: 1.55; }
+    .circle-link { display: block; color: var(--blue); text-decoration: none; }
+    .circle-image { display: block; width: 100%; max-width: 540px; height: auto; margin: 0 auto; }
+    .circle-hint { display: block; margin-top: 8px; text-align: center; font-size: 0.8rem; text-decoration: underline; text-underline-offset: 3px; }
+    @media print { .circle-hint { display: none; } }
     table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 0.95rem; font-variant-numeric: tabular-nums; }
     th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; }
     thead th { color: var(--muted); font-size: 0.85em; font-weight: 600; }
@@ -532,7 +536,7 @@
     <footer class="footer">
       <details>
         <summary>Quelle</summary>
-        <p>Ausschließlich nach <cite>Musik_Lernzettel_Klassenarbeit.pdf</cite>, Seiten 1–3. Die acht Abschnitte der PDF sind hier in vier Themenbereiche gegliedert.</p>
+        <p>Ausschließlich nach <cite>Musik_Lernzettel_Klassenarbeit.pdf</cite>, Seiten 1–3. Die Inhalte sind in vier Themenbereiche gegliedert; das Quintenzirkel-Grundwissen wurde durch eine Dur-Kreisgrafik ersetzt.</p>
       </details>
       <a class="back-top" href="#anfang">↑ Zurück zum Anfang</a>
     </footer>
@@ -562,13 +566,11 @@
 
     function renderBlock(block) {
       let body;
-      if (block.type === "table") {
-        body = `<table aria-labelledby="${escapeHtml(block.id)}-title">
-          <thead><tr>${block.headers.map(header => `<th scope="col">${escapeHtml(header)}</th>`).join("")}</tr></thead>
-          <tbody>${block.rows.map(row => `<tr>${row.map((cell, index) => index === 0
-            ? `<th scope="row">${escapeHtml(cell)}</th>`
-            : `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`).join("")}</tbody>
-        </table>`;
+      if (block.type === "circle") {
+        body = `<a class="circle-link" href="./quintenzirkel-dur.svg" aria-label="Dur-Quintenzirkel vergrößern">
+          <img class="circle-image" src="./quintenzirkel-dur.svg" width="440" height="440" alt="Dur-Quintenzirkel: C, G, D, A, E, H/Ces, Fis/Ges, Cis/Des, As, Es, B, F; mit Anzahl der Vorzeichen.">
+          <span class="circle-hint">Antippen zum Vergrößern</span>
+        </a>`;
       } else if (block.type === "answer") {
         body = block.items.map(item => `<p class="answer-text">${escapeHtml(item)}</p>`).join("");
       } else {
@@ -649,6 +651,9 @@
           for (const anchor of anchors) {
             if (anchor.getBoundingClientRect().top <= threshold) current = anchor;
             else break;
+          }
+          if (window.scrollY > 0 && window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2) {
+            current = anchors[anchors.length - 1];
           }
           if (current) topicSelect.value = current.id;
         }

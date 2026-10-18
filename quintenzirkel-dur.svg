@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-labelledby="title desc">
+<title id="title">Quintenzirkel – nur Dur</title>
+<desc id="desc">Im Uhrzeigersinn: C ohne Vorzeichen, G mit einem Kreuz, D mit zwei, A mit drei, E mit vier, H mit fünf Kreuzen oder Ces mit sieben b, Fis mit sechs Kreuzen oder Ges mit sechs b, Cis mit sieben Kreuzen oder Des mit fünf b, As mit vier b, Es mit drei, B mit zwei, F mit einem b.</desc>
+<rect width="440" height="440" fill="#ffffff"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" text-anchor="middle">
+<path d="M166.17 19.09 A208 208 0 0 1 273.83 19.09 L248.99 111.82 A112 112 0 0 0 191.01 111.82 Z" fill="#f2f4f3" stroke="#c9d2db" stroke-width="1"/>
+<text x="220.00" y="58.00" fill="#173e66" font-size="29" font-weight="700">C</text>
+<text x="220.00" y="80.00" fill="#465868" font-size="16">0</text>
+<path d="M273.83 19.09 A208 208 0 0 1 367.08 72.92 L299.20 140.80 A112 112 0 0 0 248.99 111.82 Z" fill="#eef4fa" stroke="#c9d2db" stroke-width="1"/>
+<text x="300.00" y="79.44" fill="#173e66" font-size="29" font-weight="700">G</text>
+<text x="300.00" y="101.44" fill="#465868" font-size="16">1 ♯</text>
+<path d="M367.08 72.92 A208 208 0 0 1 420.91 166.17 L328.18 191.01 A112 112 0 0 0 299.20 140.80 Z" fill="#eef4fa" stroke="#c9d2db" stroke-width="1"/>
+<text x="358.56" y="138.00" fill="#173e66" font-size="29" font-weight="700">D</text>
+<text x="358.56" y="160.00" fill="#465868" font-size="16">2 ♯</text>
+<path d="M420.91 166.17 A208 208 0 0 1 420.91 273.83 L328.18 248.99 A112 112 0 0 0 328.18 191.01 Z" fill="#eef4fa" stroke="#c9d2db" stroke-width="1"/>
+<text x="380.00" y="218.00" fill="#173e66" font-size="29" font-weight="700">A</text>
+<text x="380.00" y="240.00" fill="#465868" font-size="16">3 ♯</text>
+<path d="M420.91 273.83 A208 208 0 0 1 367.08 367.08 L299.20 299.20 A112 112 0 0 0 328.18 248.99 Z" fill="#eef4fa" stroke="#c9d2db" stroke-width="1"/>
+<text x="358.56" y="298.00" fill="#173e66" font-size="29" font-weight="700">E</text>
+<text x="358.56" y="320.00" fill="#465868" font-size="16">4 ♯</text>
+<path d="M367.08 367.08 A208 208 0 0 1 273.83 420.91 L248.99 328.18 A112 112 0 0 0 299.20 299.20 Z" fill="#edf1f6" stroke="#c9d2db" stroke-width="1"/>
+<text x="300.00" y="356.56" fill="#173e66" font-size="19" font-weight="700">H / Ces</text>
+<text x="300.00" y="378.56" fill="#465868" font-size="16">5 ♯ / 7 ♭</text>
+<path d="M273.83 420.91 A208 208 0 0 1 166.17 420.91 L191.01 328.18 A112 112 0 0 0 248.99 328.18 Z" fill="#edf1f6" stroke="#c9d2db" stroke-width="1"/>
+<text x="220.00" y="378.00" fill="#173e66" font-size="19" font-weight="700">Fis / Ges</text>
+<text x="220.00" y="400.00" fill="#465868" font-size="16">6 ♯ / 6 ♭</text>
+<path d="M166.17 420.91 A208 208 0 0 1 72.92 367.08 L140.80 299.20 A112 112 0 0 0 191.01 328.18 Z" fill="#edf1f6" stroke="#c9d2db" stroke-width="1"/>
+<text x="140.00" y="356.56" fill="#173e66" font-size="19" font-weight="700">Cis / Des</text>
+<text x="140.00" y="378.56" fill="#465868" font-size="16">7 ♯ / 5 ♭</text>
+<path d="M72.92 367.08 A208 208 0 0 1 19.09 273.83 L111.82 248.99 A112 112 0 0 0 140.80 299.20 Z" fill="#f2f4f3" stroke="#c9d2db" stroke-width="1"/>
+<text x="81.44" y="298.00" fill="#173e66" font-size="29" font-weight="700">As</text>
+<text x="81.44" y="320.00" fill="#465868" font-size="16">4 ♭</text>
+<path d="M19.09 273.83 A208 208 0 0 1 19.09 166.17 L111.82 191.01 A112 112 0 0 0 111.82 248.99 Z" fill="#f2f4f3" stroke="#c9d2db" stroke-width="1"/>
+<text x="60.00" y="218.00" fill="#173e66" font-size="29" font-weight="700">Es</text>
+<text x="60.00" y="240.00" fill="#465868" font-size="16">3 ♭</text>
+<path d="M19.09 166.17 A208 208 0 0 1 72.92 72.92 L140.80 140.80 A112 112 0 0 0 111.82 191.01 Z" fill="#f2f4f3" stroke="#c9d2db" stroke-width="1"/>
+<text x="81.44" y="138.00" fill="#173e66" font-size="29" font-weight="700">B</text>
+<text x="81.44" y="160.00" fill="#465868" font-size="16">2 ♭</text>
+<path d="M72.92 72.92 A208 208 0 0 1 166.17 19.09 L191.01 111.82 A112 112 0 0 0 140.80 140.80 Z" fill="#f2f4f3" stroke="#c9d2db" stroke-width="1"/>
+<text x="140.00" y="79.44" fill="#173e66" font-size="29" font-weight="700">F</text>
+<text x="140.00" y="101.44" fill="#465868" font-size="16">1 ♭</text>
+<text x="220" y="218" font-size="34" fill="#173e66" font-weight="700">Dur</text>
+<text x="220" y="245" font-size="17" fill="#596267">Quintenzirkel</text>
+</g></svg>

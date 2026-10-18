@@ -127,28 +127,7 @@ window.TOPICS = [
   {
     id: "quintenzirkel", title: "Quintenzirkel", badge: "04", accent: "blue",
     blocks: [
-      { id: "quintenzirkel-funktion", type: "term", title: "Funktion und paralleles Moll", items: [
-        "Der Quintenzirkel ordnet Dur-Tonarten im Abstand einer Quinte.",
-        "Im Uhrzeigersinn kommt je ein Kreuz hinzu, gegen den Uhrzeigersinn je ein b.",
-        "Die parallele Molltonart liegt drei Halbtonschritte unter der Durtonart und hat dieselben Vorzeichen."
-      ]},
-      { id: "kreuz-tonarten", type: "term", title: "Kreuz-Tonarten", items: [
-        "C (0) → G (1) → D (2) → A (3) → E (4) → H (5) → Fis (6) → Cis (7).",
-        "Reihenfolge der Kreuze: Fis, Cis, Gis, Dis, Ais, Eis, His."
-      ]},
-      { id: "b-tonarten", type: "term", title: "b-Tonarten", items: [
-        "C (0) → F (1) → B (2) → Es (3) → As (4) → Des (5) → Ges (6) → Ces (7).",
-        "Reihenfolge der b: B, Es, As, Des, Ges, Ces, Fes."
-      ]},
-      { id: "tonarten", type: "table", title: "Parallele Molltonarten", headers: ["Dur", "Moll"], rows: [
-        ["C", "a"], ["G", "e"], ["D", "h"], ["A", "fis"], ["E", "cis"], ["H", "gis"], ["Fis", "dis"],
-        ["F", "d"], ["B", "g"], ["Es", "c"], ["As", "f"], ["Des", "b"], ["Ges", "es"]
-      ], items: [], note: "Beispiel: D-Dur = 2 Kreuze (Fis, Cis), paralleles h-Moll." },
-      { id: "tonart-bestimmen", type: "steps", title: "So bestimmst du die Tonart", items: [
-        "Vorzeichen zählen.",
-        "Im Quintenzirkel die Durtonart finden.",
-        "Falls Moll gefragt ist, die parallele Molltonart nennen."
-      ], note: "Achtung: Im Deutschen ist H der Ton B natural und B der Ton B flat." }
+      { id: "dur-quintenzirkel", type: "circle", title: "Dur-Quintenzirkel", items: [] }
     ]
   }
 ];
