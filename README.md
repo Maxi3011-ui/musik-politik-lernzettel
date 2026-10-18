@@ -4,7 +4,7 @@
 
 ## Ausschließliche Inhaltsquelle
 
-`Musik_Lernzettel_Klassenarbeit.pdf`, Seiten 1–3. Die Lerninhalte sind aus dieser PDF übertragen; auf Wunsch ersetzt eine Dur-Kreisgrafik das bisherige Quintenzirkel-Grundwissen. Frühere Texte und externe Quellen sind nicht Bestandteil dieser Fassung. Die Original-PDF wird nicht mitveröffentlicht.
+`Musik_Lernzettel_Klassenarbeit.pdf`, Seiten 1–3. Die Lerninhalte sind aus dieser PDF übertragen; auf Wunsch ersetzt die bereitgestellte Grafik `mlto10b.jpg` das bisherige Quintenzirkel-Grundwissen. Sie ist unverändert als `quintenzirkel-dur.jpg` eingebunden, ohne Link oder Vergrößerungshinweis. Frühere Texte und externe Quellen sind nicht Bestandteil dieser Fassung. Die Original-PDF wird nicht mitveröffentlicht.
 
 ## Gliederung
 
