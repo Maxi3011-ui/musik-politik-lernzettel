@@ -177,10 +177,10 @@ window.TOPICS = [
         "title": "Wie heißen die vier Akte?",
         "intro": "Modell zur propagandistischen Dramaturgie von Kampfliedern – kein allgemeines Modell zum Aufbau jeder Musik.",
         "items": [
-          "Kampfsituation: Die komplexe Wirklichkeit wird auf den Gegensatz „wir gegen sie“ reduziert.",
-          "Not + Appell: Not, Schwäche oder Bedrohung werden gezeigt; die eigene Gruppe soll sich zusammenschließen.",
-          "Feind: Der Gegner wird dramatisiert und abgewertet; seine spätere Ohnmacht oder Niederlage wird behauptet.",
-          "Zukunft: Handlungsrichtlinien, Kampfbereitschaft und ein Erlösungs- bzw. Siegesversprechen schließen ab."
+          "Reduktion der Realität auf eine Kampfsituation",
+          "Erkenntnis von Not und Schwäche, Gruppierungsappell",
+          "Dramatisierung des Feindes, seiner Untaten, seiner letztlichen Ohnmacht",
+          "Richtlinien, Zukunft, Erlösungsversprechen"
         ]
       },
       {
